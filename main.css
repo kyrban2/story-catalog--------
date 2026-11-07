@@ -1,0 +1,133 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: 400;
+}
+
+.section {
+	padding: 80px 0 110px 0;
+}
+
+.section__container {
+	width: 1110px;
+	margin: 0 auto;
+}
+.section__card-header {
+	margin-bottom: 70px;
+}
+
+.card-header {
+	display: flex;
+	gap: 30px;
+}
+.card-header__img {
+	align-self: center;
+}
+.card-header__content {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+.card-header__title {
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.3;
+	color: #000;
+}
+
+.card-header__price {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 1.2;
+	color: #7e9bbd;
+}
+.card-header__price sup {
+	font-size: 16px;
+}
+.card-header__button {
+	border-radius: 6px;
+	padding: 13px 20px;
+	background: #000;
+
+	font-weight: 700;
+	font-size: 16px;
+	color: #fff;
+}
+
+.card-header__description {
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.7;
+	color: #000;
+}
+.card-header__description p {
+	margin-bottom: 20px;
+}
+.card-header__description :last-child {
+	text-decoration: underline;
+}
+.section__title {
+	margin-bottom: 45px;
+}
+.title {
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.3;
+	text-align: center;
+	color: #000;
+}
+.section__cards-footer {
+	display: flex;
+	gap: 30px;
+}
+.card {
+	padding: 30px 30px 25px;
+	box-shadow: 0 10px 40px 0 rgba(126, 155, 189, 0.3);
+	background: #fff;
+}
+
+.card__title {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.2;
+	color: #000;
+	margin-bottom: 20px;
+}
+.card__details {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card__price {
+	display: inline-block;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.2;
+	color: #7e9bbd;
+}
+.read-more {
+	border: 3px solid rgba(126, 155, 189, 0.3);
+	border-radius: 6px;
+	padding: 13px 20px;
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #7e9bbd;
+}
