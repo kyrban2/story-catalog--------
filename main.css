@@ -17,74 +17,87 @@ h6 {
 	font-weight: 400;
 }
 
-.section {
+.page {
 	padding: 80px 0 110px 0;
 }
 
-.section__container {
+.container {
 	width: 1110px;
 	margin: 0 auto;
 }
-.section__card-header {
+.product__section {
 	margin-bottom: 70px;
 }
-
-.card-header {
+.product-card {
 	display: flex;
 	gap: 30px;
 }
-.card-header__img {
+
+.product-card__img {
+	width: 100%;
 	align-self: center;
 }
-.card-header__content {
-	display: flex;
-	flex-direction: column;
-	gap: 40px;
+.product-card__info {
 }
-.card-header__title {
+.product__heading {
 	margin-bottom: 20px;
+}
+.heading-h1 {
 	font-weight: 700;
 	font-size: 28px;
 	line-height: 1.3;
 	color: #000;
 }
 
-.card-header__price {
+.product-card__price {
+	margin-bottom: 40px;
+}
+.price {
 	font-weight: 600;
 	font-size: 24px;
 	line-height: 1.2;
 	color: #7e9bbd;
 }
-.card-header__price sup {
+.price > span {
 	font-size: 16px;
 }
-.card-header__button {
+.product-card__button {
+	margin-bottom: 40px;
+}
+.button-dark {
 	border-radius: 6px;
 	padding: 13px 20px;
 	background: #000;
-
+	width: 130px;
+	height: 46px;
 	font-weight: 700;
 	font-size: 16px;
 	color: #fff;
 }
 
-.card-header__description {
+.product-card__description {
 	font-family: 'Playfair Display', sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.7;
 	color: #000;
 }
-.card-header__description p {
+.product-card__description p {
 	margin-bottom: 20px;
 }
-.card-header__description :last-child {
+.product-card__description a {
+	color: #000;
 	text-decoration: underline;
 }
-.section__title {
+
+.recommend__section {
+	display: flex;
+	gap: 30px;
+}
+.recommend__heading {
 	margin-bottom: 45px;
 }
-.title {
+.heading-h2 {
 	font-family: 'Playfair Display', sans-serif;
 	font-weight: 700;
 	font-size: 28px;
@@ -92,36 +105,42 @@ h6 {
 	text-align: center;
 	color: #000;
 }
-.section__cards-footer {
+
+.recommend-cards {
 	display: flex;
 	gap: 30px;
 }
-.card {
+.recommend-card {
 	padding: 30px 30px 25px;
 	box-shadow: 0 10px 40px 0 rgba(126, 155, 189, 0.3);
 	background: #fff;
 }
-
-.card__title {
+.recommend-card__img {
+	margin-bottom: 20px;
+}
+.recommend-card__heading {
+	margin-bottom: 20px;
+}
+.heading-h3 {
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 1.2;
 	color: #000;
-	margin-bottom: 20px;
 }
-.card__details {
+.recommend-card__price {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.card__price {
-	display: inline-block;
+.card-price {
+	
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 1.2;
 	color: #7e9bbd;
 }
-.read-more {
+.button-link {
+	display: inline-block;
 	border: 3px solid rgba(126, 155, 189, 0.3);
 	border-radius: 6px;
 	padding: 13px 20px;
